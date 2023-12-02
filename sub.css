@@ -1,0 +1,174 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+
+body {
+	
+	background-image: url(NEW.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+
+}
+
+.feedback-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #226400;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.menu-bar
+{
+	background: rgb(0, 100, 0);
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+
+{
+	width: 200px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.menu-bar ul li a
+
+{
+
+text-decoration: none;
+color: #fff;
+}
+
+.active, .menu-bar ul li:hover 
+{
+	background: #2bab0d;
+	border-radius: 3px;
+
+}
+
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+
+.sub-menu-1 
+{
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+
+	display: block;
+	position: absolute;
+	background:rgb(0, 100,0) ;
+	margin-top:15px ;
+	margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+ display: block;
+ margin: 10px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child 
+
+{
+	border-bottom: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+.fa-angle-right
+{
+	float: right;
+}
+
+.sub-menu-2
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(0,100,0);
+}
+
+/* The Modal (background) */
+sub-menu-4
+{
+	display: none;
+}
+h2
+{
+	display: inline-flex;
+	color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
